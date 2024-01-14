@@ -1,0 +1,30 @@
+{%- extends "base.html" -%}
+
+{%- block title %}
+  {%- if config.title %}
+    {%- set title = config.title %}
+  {%- else %}
+    {%- set title = "" %}
+  {%- endif %}
+
+  {%- if config.extra.title_addition and title %}
+    {%- set title_addition = title_separator ~ config.extra.title_addition %}
+  {%- elif config.extra.title_addition %}
+    {%- set title_addition = config.extra.title_addition %}
+  {%- else %}
+    {%- set title_addition = "" %}
+  {%- endif %}
+
+  {{ macros_head::title(title=title,title_addition=title_addition) }}
+{% endblock title -%}
+
+{%- block content -%}
+<main>
+  <section class="header">
+    <h1>Adrien Driffaud</h1>
+    <img src="{{ get_url(path='img/avatar.webp') }}" alt="Avatar" width="164" height="164" />
+  </section>
+
+  {{- section.content | safe -}}
+</main>
+{%- endblock content -%}
