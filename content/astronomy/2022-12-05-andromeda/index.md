@@ -1,5 +1,5 @@
 +++
-title = "Galaxie d'Andromède"
+title = "M 31 - Galaxie d'Andromède"
 slug = "2022-12-05-andromeda"
 aliases = [
   "gallery/2022-12-05-andromeda"
@@ -8,7 +8,7 @@ aliases = [
 
 {{ resize_image() }}
 
-La *Galaxie d'Andromède* ([page Wikipedia](https://fr.wikipedia.org/wiki/Galaxie_d%27Androm%C3%A8de)), depuis mon jardin à Colomiers, en décembre 2022.
+M 31 : La *Galaxie d'Andromède* ([page Wikipedia](https://fr.wikipedia.org/wiki/Galaxie_d%27Androm%C3%A8de)), depuis mon jardin à Colomiers, en décembre 2022.
 
 ---
 

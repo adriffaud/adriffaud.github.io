@@ -64,7 +64,6 @@ main {
   position: relative;
   display: block;
   margin: auto;
-  max-width: 80ch; /* works because I use a monospace font */
 }
 
 main img {

@@ -1,5 +1,5 @@
 +++
-title = "NGC 7822 - Question mark nebula"
+title = "NGC 7822 - Nébuleuse du point d'interrogation"
 slug = "2023-11-18_ngc7822"
 aliases = [
   "gallery/2023-11-18-ngc7822"

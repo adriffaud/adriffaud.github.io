@@ -1,11 +1,11 @@
 +++
-title = "Andromeda Galaxy"
+title = "M 31 - Andromeda Galaxy"
 slug = "2022-12-05-andromeda"
 +++
 
 {{ resize_image() }}
 
-*Andromeda Galaxy* ([Wikipedia page](https://en.wikipedia.org/wiki/Andromeda_Galaxy)), shot from my backyard in Colomiers, France in December 2022
+M 31: *Andromeda Galaxy* ([Wikipedia page](https://en.wikipedia.org/wiki/Andromeda_Galaxy)), shot from my backyard in Colomiers, France in December 2022
 
 ---
 

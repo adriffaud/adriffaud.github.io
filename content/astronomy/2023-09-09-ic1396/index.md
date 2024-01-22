@@ -1,5 +1,5 @@
 +++
-title = "IC 1396 - Elephant's trunk nebula"
+title = "IC 1396 - Nébuleuse de la trompe d'éléphant"
 slug = "2023-09-09_ic1396"
 aliases = [
   "gallery/2023-09-09-ic1396"
