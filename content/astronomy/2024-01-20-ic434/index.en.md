@@ -9,6 +9,6 @@ _IC 434: Horsehead nebula_ ([Wikipedia page](https://en.wikipedia.org/wiki/IC_43
 
 ---
 
-Total exposure time: 2h (60 \* 300s)
+Total exposure time: 2h (60 \* 120s)
 
 Processed with [PixInsight](https://pixinsight.com/)

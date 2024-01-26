@@ -9,6 +9,6 @@ _IC 434 : La nébuleuse de la tête de cheval_ ([page Wikipedia](https://fr.wiki
 
 ---
 
-Temps d'exposition total : 2h (60 \* 300s)
+Temps d'exposition total : 2h (60 \* 120s)
 
 Images traitées avec [PixInsight](https://pixinsight.com/)
