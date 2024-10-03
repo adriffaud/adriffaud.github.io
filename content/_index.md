@@ -1,9 +1,9 @@
 +++
 +++
 
-Je suis développeur backend et infrastructure à [Airnity](https://www.airnity.com) où je travaille sur la plateforme développeur interne avec les langages **Elixir** et **Golang**, l'automatisation et l'architecture cloud sur **AWS** avec **Kubernetes** et **ArgoCD**.
+Je suis développeur backend et infrastructure et je travaille essentiellement avec les langages **Elixir** et **Golang**, sur de l'automatisation et de l'architecture cloud sur **AWS** avec **Kubernetes** et **ArgoCD**.
 
-En dehors du travail, je fais principalement de l'**astrophotographie** depuis mon jardin dès que possible.
+En dehors du travail, je fais principalement de l'**astrophotographie** dès que mon temps libre et la météo le permettent.
 
 ## Liens
 - [CV](/resume.pdf)
