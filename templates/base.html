@@ -2,14 +2,17 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#282b3c" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   {%- block title -%}
-    {% set title_separator = " | " %}
+  {% set title_separator = " | " %}
   {%- endblock title -%}
 
   <link rel="stylesheet" href="{{ get_url(path='style.css') }}" />
@@ -30,6 +33,7 @@
   <meta property="og:url" content="{{ get_url(path="", trailing_slash=false)
     }}"> {% endif %}
 </head>
+
 <body>
   <header>
     <nav>
@@ -41,13 +45,16 @@
     </nav>
     <nav class="lang">
       {%- if lang != config.default_language %}
-      <a href="{{current_url | replace(from=current_path | truncate(length=4, end=""), to="/") | safe }}">{{ trans(key="flag", lang="fr")}}</a>
+      <a href="{{current_url | replace(from=current_path | truncate(length=4, end=""), to=" /") | safe }}">{{
+        trans(key="flag", lang="fr")}}</a>
       {%- else %}
-      <a href="{{current_url | replace(from=config.base_url, to=config.base_url ~ "/en") | safe }}">{{ trans(key="flag", lang="en")}}</a>
+      <a href="{{current_url | replace(from=config.base_url, to=config.base_url ~ " /en") | safe }}">{{
+        trans(key="flag", lang="en")}}</a>
       {%- endif %}
     </nav>
   </header>
   {% block content %}
   {% endblock %}
 </body>
+
 </html>
